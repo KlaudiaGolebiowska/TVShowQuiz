@@ -1,0 +1,29 @@
+{
+  "name": "tv_show_quiz",
+  "version": "1.0.0",
+  "description": "Implementacja projektu w ramach kursu programowania CodersCamp",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TenGosc007/TVShowQuiz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TenGosc007/TVShowQuiz/issues"
+  },
+  "homepage": "https://github.com/TenGosc007/TVShowQuiz#readme",
+  "devDependencies": {
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
