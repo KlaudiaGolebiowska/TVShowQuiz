@@ -1,0 +1,57 @@
+# CodersCamp 2020 - Projekt JavaScript
+
+Implementacja projektu w ramach kursu programowania CodersCamp. Wszystkie materiały związane z projektem można znaleźć w folderze [docs](docs).
+
+## Temat projektu
+
+Quizu sprawdzający znajomość uniwersum trzech popularnych seriali: "Game of Throne", "Rick & Morty", "Breaking Bad". Każdy z seriali będzie stanowił osobną kategorię quizu.
+
+### Założenia projektowe
+
+1. Pobranie danych z API
+2. Wyświetlenie strony, pokazanie losowego zdjęcia postaci, panel z opisem zasad gry (dostosowany opis, jeśli np. imię osoby ze zdjęcia jest w opisie zasad).
+3. Rozpoczęcie quizu
+
+- losowanie pytań
+- losowanie odpowiedzi dla komputera (gracz konkuruje także z komputerem! Komputer tak samo jak gracz próbuje rozpoznać co jest na grafice).
+
+4. Sprawdzenie poprawności odpowiedzi
+5. Obsługa *zegara* wskazującego upływ czasu
+6. Wyświetlenie wyniku po zakończeniu quizu (zapisanie wyniku do local storage)
+7. Lista najlepszych wyników
+8. Ustawienia strony
+
+## Tablica z zadaniami
+
+Wszystkie taski dotyczące projektu można znaleźć na tablicy [Trello](https://trello.com/b/qMtg04W4/project-js).
+
+## Praca z projektem
+
+### Commit Message
+
+Przyjmujemy poniższy format commit message
+
+```
+<type>: <commit_message>
+```
+
+#### Commit Message Type
+
+* **build**: Zmiana która afektuje budowanie projektu lub zależności zewnętrzne
+* **docs**: Zmiana w dokumentacji bądź dodatkowych materiałach
+* **feature**: Wprowadzenie nowej funkcjonalności
+* **bugfix**: Naprawienie błędu
+* **refactor**: Zmiana w projekcie, która nic nie naprawia, ani nie dodaje
+
+#### Zasady Commit Message
+
+* używaj imperatywnej formy czasu teraźniejszego: "change", nie "changed" lub "changes"
+* nie zaczynaj wielką literą
+* nie dodawaj kropki na końcu zdania
+* używaj języka angielskiego
+
+### Pull Request
+
+Pracujemy na gałęziach w metodologii `branch per feature`. Staramy się tworzyć małe PR. W opisie PR powinno być dokładnie opisane co on zmienia. Każdy PR musi być zaakceptowany przez przynajmniej jedną inną osobę.
+
+### Development
