@@ -54,4 +54,10 @@ Przyjmujemy poniższy format commit message
 
 Pracujemy na gałęziach w metodologii `branch per feature`. Staramy się tworzyć małe PR. W opisie PR powinno być dokładnie opisane co on zmienia. Każdy PR musi być zaakceptowany przez przynajmniej jedną inną osobę.
 
-### Development
+## Development
+
+### Uruchomienie:
+
+1. Sklonować repo na dysk i otworzyć w konsoli
+2. npm install
+3. npm start (projekt uruchomi się na localhost:8080)
