@@ -16,10 +16,14 @@ Quizu sprawdzający znajomość uniwersum trzech popularnych seriali: "Game of T
 - losowanie odpowiedzi dla komputera (gracz konkuruje także z komputerem! Komputer tak samo jak gracz próbuje rozpoznać co jest na grafice).
 
 4. Sprawdzenie poprawności odpowiedzi
-5. Obsługa *zegara* wskazującego upływ czasu
+5. Obsługa _zegara_ wskazującego upływ czasu
 6. Wyświetlenie wyniku po zakończeniu quizu (zapisanie wyniku do local storage)
 7. Lista najlepszych wyników
 8. Ustawienia strony
+
+### Projekt strony
+
+Prototypowa wersja strony dostępna jest na [Figmie](https://www.figma.com/file/ixMw4amlPClGe2GIBJIuJB/Untitled?node-id=0%3A1)
 
 ## Tablica z zadaniami
 
@@ -37,18 +41,18 @@ Przyjmujemy poniższy format commit message
 
 #### Commit Message Type
 
-* **build**: Zmiana która afektuje budowanie projektu lub zależności zewnętrzne
-* **docs**: Zmiana w dokumentacji bądź dodatkowych materiałach
-* **feature**: Wprowadzenie nowej funkcjonalności
-* **bugfix**: Naprawienie błędu
-* **refactor**: Zmiana w projekcie, która nic nie naprawia, ani nie dodaje
+- **build**: Zmiana która afektuje budowanie projektu lub zależności zewnętrzne
+- **docs**: Zmiana w dokumentacji bądź dodatkowych materiałach
+- **feature**: Wprowadzenie nowej funkcjonalności
+- **bugfix**: Naprawienie błędu
+- **refactor**: Zmiana w projekcie, która nic nie naprawia, ani nie dodaje
 
 #### Zasady Commit Message
 
-* używaj imperatywnej formy czasu teraźniejszego: "change", nie "changed" lub "changes"
-* nie zaczynaj wielką literą
-* nie dodawaj kropki na końcu zdania
-* używaj języka angielskiego
+- używaj imperatywnej formy czasu teraźniejszego: "change", nie "changed" lub "changes"
+- nie zaczynaj wielką literą
+- nie dodawaj kropki na końcu zdania
+- używaj języka angielskiego
 
 ### Pull Request
 
